@@ -12,6 +12,7 @@ st.markdown(
     '''
 )
 
+# API call
 response = fetch(urls[1]) 
 
 df = pd.DataFrame(response)
